@@ -1,0 +1,4 @@
+docker-machine create --driver virtualbox gitlab
+VBoxManage modifyvm "gitlab" --memory 4000
+VBoxManage modifyvm "gitlab" --cpus 4
+ 
